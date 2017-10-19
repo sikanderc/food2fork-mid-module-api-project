@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="layout.css">
     <title>Google Books API Project</title>
   </head>
   <body>
@@ -10,9 +11,19 @@
       <input type="text" id="book-search-input">
       <input type="submit" id="book-search-submit">
     </form>
-    <div id="books">
 
-    </div>
+    <table>
+      <tr>
+        <td id="book-column">
+          <div id="books">
+          </div>
+        </td>
+        <td id="show-column">
+          <div id="show">
+          </div>
+        </td>
+      </tr>
+    </table>
 
 <script src="index.js"></script>
   </body>

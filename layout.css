@@ -1,0 +1,23 @@
+#book-column {
+  width: 25%;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  border-style: outset;
+  padding: 20px;
+}
+
+#show {
+  vertical-align: top;
+  padding-left: 30px;
+}
+
+td {
+  vertical-align: top;
+  border-spacing: 20px;
+}
